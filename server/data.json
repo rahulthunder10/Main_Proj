@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "7428cb97-2d6b-4cf3-a243-d1092e602b3b",
+      "name": "rahul",
+      "email": "rahulpanther443@gmail.com",
+      "role": "manager",
+      "password": "$2a$10$n32uJU8VjntdOHjZS9ELaeOYI4XitnMrzWiypB5O5esco1q3fyUQW"
+    }
+  ],
+  "projects": [
+    {
+      "id": "291745e3-eea7-4d7c-8513-23f5cfd4fd5f",
+      "name": "Mentexa",
+      "description": "Web for mentors",
+      "ownerId": "7428cb97-2d6b-4cf3-a243-d1092e602b3b",
+      "members": [
+        {
+          "id": "7428cb97-2d6b-4cf3-a243-d1092e602b3b",
+          "name": "rahul",
+          "email": "rahulpanther443@gmail.com",
+          "role": "manager"
+        }
+      ],
+      "createdAt": "2026-08-22T11:04:33.458Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "6ede7676-90d7-48cc-9673-61411e15fdf7",
+      "projectId": "291745e3-eea7-4d7c-8513-23f5cfd4fd5f",
+      "title": "Frontend",
+      "description": "hjfjgffjkklljkj",
+      "assigneeId": "",
+      "priority": "Medium",
+      "dueDate": "2026-08-24",
+      "status": "To Do",
+      "createdBy": "7428cb97-2d6b-4cf3-a243-d1092e602b3b",
+      "createdAt": "2026-08-22T11:19:46.481Z",
+      "updatedAt": "2026-08-22T11:19:46.481Z"
+    }
+  ],
+  "ledger": [
+    {
+      "id": "ed1bf7ab-ee7b-4cec-b1ca-7b89ff528771",
+      "projectId": "291745e3-eea7-4d7c-8513-23f5cfd4fd5f",
+      "userId": "7428cb97-2d6b-4cf3-a243-d1092e602b3b",
+      "userName": "rahul",
+      "action": "created project",
+      "detail": "Mentexa",
+      "createdAt": "2026-08-22T11:04:33.458Z",
+      "previousHash": "GENESIS",
+      "hash": "fb3f1cf7cc412fcd952f9148c26d7e8e841452a792141f55dfcc9435f562f052"
+    },
+    {
+      "id": "e43c917d-386f-4cbe-a6a8-5d05d10ffdc6",
+      "projectId": "291745e3-eea7-4d7c-8513-23f5cfd4fd5f",
+      "userId": "7428cb97-2d6b-4cf3-a243-d1092e602b3b",
+      "userName": "rahul",
+      "action": "created task",
+      "detail": "Frontend",
+      "createdAt": "2026-08-22T11:19:46.481Z",
+      "previousHash": "fb3f1cf7cc412fcd952f9148c26d7e8e841452a792141f55dfcc9435f562f052",
+      "hash": "217c2ec048fc35d8143246071c59abdd1a2932361a814437eb5665c18f2a0c80"
+    }
+  ]
+}
